@@ -4,15 +4,54 @@
     box-sizing: border-box;
     
 }
+
+/* body style start here */
 body{
     font-family: 'Poppins', sans-serif;
+}
+/* body style finish here */
+
+/* Hero banner section style start hee */
+main{
+    margin: 0 100px;
 }
 .Hero-Section{
     display: flex;
     background-color: black;
-    width: 80%;
-    align-items: center;
+    justify-content: space-evenly;
+    height: 646px;
+    border-radius: 30px;
+    
 }
 .Hero-Section div h1{
     color: white;
+    font-weight: 900;
+    font-size: 70px;
+    margin-top: 60px;
+   
+}
+
+.image-1{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+}
+
+.banner-image{
+    align-items: center;
+}
+.body-text{
+    color: white;
+    
+}
+
+.btn-1{
+    color: white;
+}
+.view-btn{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
